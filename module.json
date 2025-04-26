@@ -1,0 +1,37 @@
+{
+    "id": "surreal-combat-enhancements",
+    "name": "surreal-combat-enhancements",
+    "title": "Surreal Combat Enhancements",
+    "description": "Rolls initiative at combat start, starts combat automatically, and adds a dialog after damage with a next turn button.",
+    "version": "1.0.0",
+    "socket": true,
+    "compatibility": {
+    "minimum": "10",
+    "verified": "13.337"
+    },
+    "authors": [
+    {
+      "name": "Steven VanLandingham",
+      "url": "https://famtickets.com",
+      "discord": "Surreal1481"
+    }
+  ],
+    "minimumCoreVersion": "10",
+    "compatibleCoreVersion": "11",
+    "scripts": [],
+    "esmodules": ["combat-enhancements.js"],
+    "dependencies": [
+    {
+        "name": "socketlib",
+        "type": "module"
+    }
+    ],
+    "styles": [],
+    "license": "MIT",
+    "packs": [],
+    "system": ["dnd5e"],
+    "url": "https://github.com/surrealzerg/Foundry-Surreal-Combat-Enhancements",
+    "manifest": "https://raw.githubusercontent.com/surrealzerg/Foundry-Surreal-Combat-Enhancements/main/module.json",
+    "download": "https://raw.githubusercontent.com/surrealzerg/Foundry-Surreal-Combat-Enhancements/main/surreal-combat-enhancements.zip"
+  }
+  
